@@ -1,0 +1,19 @@
+---
+require:
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-graphql
+AllCops:
+  NewCops: enable
+Metrics/AbcSize:
+  Exclude:
+    - db/migrate/**/*
+Metrics/BlockLength:
+  Exclude:
+    - db/migrate/**/*
+Metrics/MethodLength:
+  Exclude:
+    - db/migrate/**/*
+Style/Documentation:
+  Exclude:
+    - db/migrate/**/*
